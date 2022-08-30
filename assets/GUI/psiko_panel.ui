@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>833</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Psiko Panel</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../py_rc/icons.qrc">
+    <normaloff>:/assets/olimpik.png</normaloff>:/assets/olimpik.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QTableWidget" name="tableWidget">
+         <property name="mouseTracking">
+          <bool>false</bool>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::WheelFocus</enum>
+         </property>
+         <property name="contextMenuPolicy">
+          <enum>Qt::DefaultContextMenu</enum>
+         </property>
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="sizeAdjustPolicy">
+          <enum>QAbstractScrollArea::AdjustIgnored</enum>
+         </property>
+         <property name="autoScroll">
+          <bool>true</bool>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+         <property name="alternatingRowColors">
+          <bool>false</bool>
+         </property>
+         <property name="verticalScrollMode">
+          <enum>QAbstractItemView::ScrollPerItem</enum>
+         </property>
+         <property name="gridStyle">
+          <enum>Qt::SolidLine</enum>
+         </property>
+         <property name="sortingEnabled">
+          <bool>true</bool>
+         </property>
+         <property name="rowCount">
+          <number>0</number>
+         </property>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderHighlightSections">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderStretchLastSection">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderStretchLastSection">
+          <bool>false</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>TC</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Adı</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Soyadı</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Boy</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Kilo</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Tarih</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Denge</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Uzun Atlama</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Dikey Sıçrama</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Esneklik</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>30 Metre</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>100 Metre</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>SEÇİLİ SPORCU TC/ADI/SOYADI :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="sporcutc_name_surname">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="psiko_add_button">
+         <property name="text">
+          <string>Psiko Ekle</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="excel_aktar_button">
+         <property name="text">
+          <string>Excel'e Aktar</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="sayfa_yenile_button">
+         <property name="text">
+          <string>Sayfayı Yenile</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../py_rc/icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

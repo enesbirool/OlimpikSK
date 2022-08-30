@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>318</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Lisans Sözleşmesi</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../../assets/icons.qrc">
+    <normaloff>:/assets/martialarts_g.png</normaloff>:/assets/martialarts_g.png</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;MXSoftware SON KULLANICI LİSANS SÖZLEŞMESİ &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;1110SKLS01 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Önemli: Bu lisans sözleşmesinde belirtilen hakları ve yükümlülükleri dikkatle okuyunuz. Kurulum esnasında bu şartları kabul edip etmediğiniz size sorulacaktır. Eğer kabul etmiyorsanız yazılım bilgisayarınıza yüklenmeyecektir. Programı bilgisayarınıza yüklemeniz, sözleşme şartlarını kabul ettiğinizi gösterir.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; Bu sözleşme MXSoftware Yazılımı için (YAZILIM), MXSoftware ile SON KULLANICI (gerçek veya tüzel) arasında yapılan yasal bir sözleşmedir. YAZILIM'ı yüklemeniz bu sözleşmenin hükümlerini kabul ettiğiniz anlamına gelir. Sözleşmeyi kabul etmediğiniz taktirde YAZILIM'ı yükleyemez ve kullanamazsınız. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;I- SON KULLANICI'NIN HAK VE YÜKÜMLÜLÜKLERİ: &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;1. SON KULLANICI, YAZILIM için gerekli olan minimum sistem gereksinimlerini (benioku.txt belgesinde tanımlanmıştır.) karşılamakla yükümlüdür. YAZILIM'ın çalışması için gerekli olan alt yapı hizmetlerini (Örnek: İnternet, yazarkasa sistemi veya donanım ürünlerinin tamamı yazılımı kullanacak firmaya aittir) kullanmayı kabul, taahhüt ve beyan eder. SON KULLANICI, yukarıda yazılı hükme aykırı davranması sebebi ile sözleşme konusu üründe meydana gelecek hasar ve ziyanlardan dolayı iş bu sözleşmenin bend III- 1.b, 1.c madde hükümlerinden yararlanma hakkının ortadan kalkacağını bildiğini beyan ve kabul eder. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;2. SON KULLANICI, YAZILIM'ı sadece tek bir bilgisayara veya ağ ortamındaki bilgisayarlara yükleyeceğini ve yalnızca bu ortamlarda kullanacağını, herhangi bir araçla ve herhangi bir şekilde sürekli veya geçici olarak başka bir ortama aktarmayacağını kabul, taahhüt ve beyan eder. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;3. SON KULLANICI; YAZILIM, çok kullanıcılı sistemi destekliyor ise ağda birden fazla bilgisayara kurup çalıştırılabileceğini, ağdaki her bir bilgisayar için lisans alması gerektiği hususunu ve bir YAZILIM lisansının paylaşılamayacağını ve YAZILIM'ın değişik bilgisayarlarda aynı anda kullanılamayacağını bildiğini beyan ve kabul eder. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;4. YAZILIM, çok kullanıcılı kullanılıyor ise; SON KULLANICI, çalıştırılabilecek maksimum programı lisans alırken belirtilen, client sayısı kadar diğer bilgisayarlara kurma hakkına haizdir. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;5. SON KULLANICI, demo sürümünü, MXSoftware'un belirlediği kayıt adedi ve süresince kullanacağını, her ne sebeple olursa olsun, ticari veya mesleki amaçlarla veya diğer kar getirici sebeplerle kullanmayacağını kabul, taahhüt ve beyan eder.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>copyright © MXSoftware 2022 tüm hakları saklıdır</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../assets/icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

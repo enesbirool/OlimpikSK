@@ -28,8 +28,14 @@ class DereceEkle(QWidget):
             self.conn.commit()
             self.conn.close()
             self.eklendi_info()
+            self.temizle()
         except:
             pass
 
     def eklendi_info(self):
         QMessageBox.question(self, 'İnfo Page', "Derece Eklendi",QMessageBox.Ok)
+
+    def temizle(self):
+        self.ui.turnuva_adi_edit.clear()
+        self.ui.turnuvail_edit.clear()
+        self.ui.derece_edit.clear()

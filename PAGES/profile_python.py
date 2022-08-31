@@ -242,7 +242,7 @@ class Ui_Form(object):
         self.label_14.setText(_translate("Form", "Veli phone:"))
         self.idcard.setText(_translate("Form", "ID CARD"))
         self.pick_photo_button.setText(_translate("Form", "Fotoğraf Seç"))
-        self.psiko_button.setText(_translate("Form", "Psiko"))
+        self.psiko_button.setText(_translate("Form", "Psikomotor"))
         self.matches_button.setText(_translate("Form", "Matches"))
         self.label_10.setText(_translate("Form", "Lisans No : "))
         self.date_of_birth_date_edit.setText(_translate("Form", "Doğum Tarihi : "))

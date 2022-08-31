@@ -34,8 +34,20 @@ class PsikoEkle(QWidget):
             self.conn.commit()
             self.conn.close()
             self.eklendi_info()
+            self.temizle()
         except:
             pass
 
     def eklendi_info(self):
         QMessageBox.question(self, 'İnfo Page', "Psiko Eklendi",QMessageBox.Ok)
+
+    def temizle(self):
+        self.ui.tarih_edit.clear()
+        self.ui.boy_edit.clear()
+        self.ui.kilo_edit.clear()
+        self.ui.denge_edit.clear()
+        self.ui.uzun_at_edit.clear()
+        self.ui.dikey_sic_edit.clear()
+        self.ui.esneklik_edit.clear()
+        self.ui.kisametre_edit.clear()
+        self.ui.uzun_metre_edit.clear()

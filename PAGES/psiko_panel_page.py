@@ -27,7 +27,7 @@ class PsikoPanelPage(QWidget):
         try:
             id=self.ui.tableWidget.item(self.ui.tableWidget.currentRow(),0).text()
             reply = QMessageBox.question(self, "İnfo", "Psiko silmek İstediğinize emin misiniz?",
-                                         QMessageBox.Close | QMessageBox.Ok)
+                                         QMessageBox.Close | QMessageBox.Ok|QMessageBox.Open)
             if reply == QMessageBox.Ok:
                 self.conn = sql.connect("./db/mxsoftware.db")
                 self.c = self.conn.cursor()
@@ -36,13 +36,51 @@ class PsikoPanelPage(QWidget):
                 self.conn.close()
                 QMessageBox.question(self, 'İnfo Page', "Seçili Olan Psiko Bilgisi Silindi", QMessageBox.Ok)
                 self.doldur()
+            if reply == QMessageBox.Open:
+                self.PsikoEkle.show()
+                self.PsikoEkle.ui.ekle_button.hide()
+                tarih = self.ui.tableWidget.item(self.ui.tableWidget.currentRow(), 4).text()
+                boy = self.ui.tableWidget.item(self.ui.tableWidget.currentRow(), 5).text()
+                kilo = self.ui.tableWidget.item(self.ui.tableWidget.currentRow(), 6).text()
+                denge = self.ui.tableWidget.item(self.ui.tableWidget.currentRow(), 7).text()
+                uzunat = self.ui.tableWidget.item(self.ui.tableWidget.currentRow(), 8).text()
+                dikeysic = self.ui.tableWidget.item(self.ui.tableWidget.currentRow(), 9).text()
+                esneklik = self.ui.tableWidget.item(self.ui.tableWidget.currentRow(), 10).text()
+                kisametre = self.ui.tableWidget.item(self.ui.tableWidget.currentRow(),11).text()
+                uzunmetre = self.ui.tableWidget.item(self.ui.tableWidget.currentRow(), 12).text()
+                self.PsikoEkle.setWindowTitle("Piskomotor Bilgileri")
+                self.PsikoEkle.ui.tarih_edit.setText(tarih)
+                self.PsikoEkle.ui.boy_edit.setText(boy)
+                self.PsikoEkle.ui.kilo_edit.setText(kilo)
+                self.PsikoEkle.ui.denge_edit.setText(denge)
+                self.PsikoEkle.ui.uzun_at_edit.setText(uzunat)
+                self.PsikoEkle.ui.dikey_sic_edit.setText(dikeysic)
+                self.PsikoEkle.ui.esneklik_edit.setText(esneklik)
+                self.PsikoEkle.ui.kisametre_edit.setText(kisametre)
+                self.PsikoEkle.ui.uzun_metre_edit.setText(uzunmetre)
+                self.readonly(True)
+
             else:
                 pass
         except:
             pass
+    def readonly(self,bool):
+        self.PsikoEkle.ui.tarih_edit.setReadOnly(bool)
+        self.PsikoEkle.ui.boy_edit.setReadOnly(bool)
+        self.PsikoEkle.ui.kilo_edit.setReadOnly(bool)
+        self.PsikoEkle.ui.denge_edit.setReadOnly(bool)
+        self.PsikoEkle.ui.uzun_at_edit.setReadOnly(bool)
+        self.PsikoEkle.ui.dikey_sic_edit.setReadOnly(bool)
+        self.PsikoEkle.ui.esneklik_edit.setReadOnly(bool)
+        self.PsikoEkle.ui.kisametre_edit.setReadOnly(bool)
+        self.PsikoEkle.ui.uzun_metre_edit.setReadOnly(bool)
     def psikoEklePage(self):
         self.PsikoEkle.show()
+        self.readonly(False)
         self.PsikoEkle.tc = self.tc
+        self.PsikoEkle.ui.ekle_button.show()
+        self.PsikoEkle.setWindowTitle("Piskomotor Ekle")
+        self.PsikoEkle.temizle()
 
     def doldur(self):
         self.ui.tableWidget.setColumnCount(13)
